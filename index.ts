@@ -3,7 +3,6 @@ import bodyParser from 'body-parser'
 import fs from 'fs'
 
 const app = express()
-const jf = express()
 app.use(bodyParser.json())
 
 interface Person{
